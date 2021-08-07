@@ -9,7 +9,7 @@ esphome:
   platform: ESP8266
   board: d1_mini
   libraries:
-    - "wemos/LOLIN_HP303B_Library" # lib from github
+    - "https://github.com/wemos/LOLIN_HP303B_Library" # lib from github
     - "SPI" # lib from platformio
   includes:
     - hp303b.h
